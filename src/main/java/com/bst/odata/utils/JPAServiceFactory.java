@@ -1,4 +1,4 @@
-package com.penninkhof.odata.utils;
+package com.bst.odata.utils;
 
 import javax.persistence.EntityManagerFactory;
 
@@ -19,7 +19,7 @@ public class JPAServiceFactory extends ODataJPAServiceFactory {
 
 		oDataJPAContext.setEntityManagerFactory(factory);
 		oDataJPAContext.setPersistenceUnitName(DEFAULT_ENTITY_UNIT_NAME);
-		oDataJPAContext.setJPAEdmExtension(new JPAEdmExtension());
+		//oDataJPAContext.setJPAEdmExtension(new JPAEdmExtension());
 		ODataContextUtil.setODataContext(oDataJPAContext.getODataContext());
 		
 		return oDataJPAContext;

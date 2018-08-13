@@ -1,11 +1,11 @@
 sap.ui.define([
 	"sap/ui/core/UIComponent",
 	"sap/ui/Device",
-	"com/penninkhof/odata/model/models"
+	"com/bst/odata/model/models"
 ], function(UIComponent, Device, models) {
 	"use strict";
 
-	return UIComponent.extend("com.penninkhof.odata.Component", {
+	return UIComponent.extend("com.bst.odata.Component", {
 
 		metadata: {
 			manifest: "json"

@@ -1,4 +1,4 @@
-package com.penninkhof.odata.utils;
+package com.bst.odata.utils;
 
 import java.util.Locale;
 import java.util.ResourceBundle;

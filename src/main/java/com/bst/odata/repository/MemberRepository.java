@@ -1,10 +1,10 @@
-package com.penninkhof.odata.repository;
+package com.bst.odata.repository;
 
 import java.util.List;
 
 import org.springframework.data.repository.CrudRepository;
 
-import com.penninkhof.odata.entities.Member;
+import com.bst.odata.entities.Member;
 
 public interface MemberRepository extends CrudRepository<Member, Integer> {
 

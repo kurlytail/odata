@@ -1,4 +1,4 @@
-package com.penninkhof.odata;
+package com.bst.odata;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -6,13 +6,15 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
-import org.springframework.boot.context.web.SpringBootServletInitializer;
+import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 
-import com.penninkhof.odata.entities.Member;
-import com.penninkhof.odata.repository.MemberRepository;
+import com.bst.odata.entities.Member;
+import com.bst.odata.repository.MemberRepository;
 
 @SpringBootApplication
+@ComponentScan("com.bst")
 public class Application extends SpringBootServletInitializer {
 
 	private static final Logger log = LoggerFactory.getLogger(Application.class);

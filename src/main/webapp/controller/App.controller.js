@@ -1,9 +1,9 @@
 sap.ui.define([
-	"com/penninkhof/odata/controller/BaseController"
+	"com/bst/odata/controller/BaseController"
 ], function(Controller) {
 	"use strict";
 
-	return Controller.extend("com.penninkhof.odata.controller.App", {
+	return Controller.extend("com.bst.odata.controller.App", {
 
 	});
 
